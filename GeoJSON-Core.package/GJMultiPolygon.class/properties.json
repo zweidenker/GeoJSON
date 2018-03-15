@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "GJGeometryCollection",
+	"category" : "GeoJSON-Core-GeoJSON-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "GJMultiPolygon",
+	"type" : "normal"
+}

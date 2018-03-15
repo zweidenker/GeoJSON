@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "GJGeometryObject",
+	"category" : "GeoJSON-Core-GeoJSON-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"geometries"
+	],
+	"name" : "GJGeometryCollection",
+	"type" : "normal"
+}

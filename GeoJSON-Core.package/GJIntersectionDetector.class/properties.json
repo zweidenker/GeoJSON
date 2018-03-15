@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "GeoJSON-Core-GeoJSON-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"coordinates",
+		"segments"
+	],
+	"name" : "GJIntersectionDetector",
+	"type" : "normal"
+}
