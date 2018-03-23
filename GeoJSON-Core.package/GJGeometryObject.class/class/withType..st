@@ -1,4 +1,4 @@
 instance creation
 withType: aString
-	^ (self allSubclasses reject: #isAbstract)
+	^ (self withAllSubclasses reject: #isAbstract)
 		detect: [ :each | each type = aString ]
