@@ -1,4 +1,4 @@
-as yet unclassified
+*GeoJSON-Voyage
 mongoType
 	<mongoDescription>
 	^ VOToOneDescription new

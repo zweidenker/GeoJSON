@@ -1,4 +1,4 @@
-as yet unclassified
+*GeoJSON-Voyage
 mongoContainer
 	<mongoContainer>
 	^ VOContainer new 

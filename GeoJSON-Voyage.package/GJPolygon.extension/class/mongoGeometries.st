@@ -1,4 +1,4 @@
-as yet unclassified
+*GeoJSON-Voyage
 mongoGeometries
 	<mongoDescription>
 	^ VOTransientDescription new
