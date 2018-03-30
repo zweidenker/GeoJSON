@@ -1,4 +1,4 @@
 accessing
 coordinates: aCollection 
-	geometries := aCollection collect: [ :each |
-		GJLinearRing new coordinates: each ]
+	geometries := aCollection do: [ :each |
+		self addLinearRing: (GJLinearRing new coordinates: each)  ]
