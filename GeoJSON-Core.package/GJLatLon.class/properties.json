@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "GJPoint",
+	"category" : "GeoJSON-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "GJLatLon",
+	"type" : "normal"
+}
