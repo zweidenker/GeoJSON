@@ -2,5 +2,5 @@ accessing
 neoJsonMapping: mapper
 
 	mapper for: self do: [ :mapping |
-		mapping mapInstVars: #(address).
+		mapping mapInstVars: #(string).
 		(mapping mapInstVar: #location) valueSchema: GJPoint. ].
