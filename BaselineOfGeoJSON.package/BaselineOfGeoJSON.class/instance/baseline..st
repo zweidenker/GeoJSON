@@ -9,11 +9,8 @@ baseline: spec
 			package: 'GeoJSON-Voyage' with: [
 				spec requires: #( 'GeoJSON-Core' "leaving out voyage for now. needs to be loaded separately" )].
 		spec
-			project: 'NeoJSON' with: [
-				spec
-					className: #ConfigurationOfNeoJSON;
-					versionString: '17';
-					repository: 'http://mc.stfx.eu/Neo' ].
+			baseline: 'NeoJSON' 
+			with: [ spec repository: 'github://svenvc/NeoJSON:master/repository' ].
 
 		spec
 			 group: 'default' with: #( 'GeoJSON-Core') ].
