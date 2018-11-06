@@ -10,7 +10,7 @@ baseline: spec
 				spec requires: #( 'GeoJSON-Core' "leaving out voyage for now. needs to be loaded separately" )].
 		spec
 			baseline: 'NeoJSON' 
-			with: [ spec repository: 'github://svenvc/NeoJSON:master/repository' ].
+			with: [ spec repository: 'github://zweidenker/NeoJSON:master/repository' ].
 
 		spec
 			 group: 'default' with: #( 'GeoJSON-Core') ].
