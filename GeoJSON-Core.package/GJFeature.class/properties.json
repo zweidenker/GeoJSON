@@ -1,12 +1,13 @@
 {
 	"commentStamp" : "",
-	"super" : "Object",
+	"super" : "GJObject",
 	"category" : "GeoJSON-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"geometry"
+		"geometry",
+		"properties"
 	],
 	"name" : "GJFeature",
 	"type" : "normal"
