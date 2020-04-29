@@ -3,9 +3,10 @@ baseline: spec
 	<baseline>
         
 	spec for: #common do: [
+		self geography: spec.
    		spec 
 			package: 'GeoJSON-Core' with: [
-				spec requires: #( 'NeoJSON' )];
+				spec requires: #( 'NeoJSON' 'Geography' )];
 			package: 'GeoJSON-Core-Tests' with: [
 				spec requires: #( 'GeoJSON-Core' )];
 			package: 'GeoJSON-Voyage' with: [
