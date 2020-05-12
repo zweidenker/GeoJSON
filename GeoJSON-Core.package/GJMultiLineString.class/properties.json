@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "GJGeometryCollection",
+	"category" : "GeoJSON-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "GJMultiLineString",
+	"type" : "normal"
+}

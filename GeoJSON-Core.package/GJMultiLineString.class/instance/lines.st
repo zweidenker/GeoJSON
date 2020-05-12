@@ -1,0 +1,3 @@
+accessing
+lines
+	^ self geometries
