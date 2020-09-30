@@ -2,5 +2,5 @@
 mongoContainer
 	<mongoContainer>
 	^ VOContainer new
-		kind: GJPolygon;
+		"kind: GJPolygon;"
 		yourself
