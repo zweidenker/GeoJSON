@@ -1,3 +1,3 @@
 accessing
 latitude
-	^ coordinates first
+	^ coordinates second
