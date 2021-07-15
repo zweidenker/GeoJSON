@@ -7,7 +7,8 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"stream",
-		"json"
+		"json",
+		"model"
 	],
 	"name" : "GeoJSONReader",
 	"type" : "normal"

@@ -1,0 +1,3 @@
+*GeoJSON-Core
+features
+	^ features
