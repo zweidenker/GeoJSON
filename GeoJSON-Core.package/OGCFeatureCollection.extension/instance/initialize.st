@@ -1,4 +1,5 @@
 *GeoJSON-Core
 initialize
 	super initialize.
-	features := OrderedCollection new
+	features := OrderedCollection new.
+	properties := Dictionary new.
