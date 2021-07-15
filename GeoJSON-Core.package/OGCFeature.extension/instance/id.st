@@ -1,3 +1,0 @@
-*GeoJSON-Core
-id 
-	^ id
