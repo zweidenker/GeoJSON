@@ -1,0 +1,1 @@
+Documentation of GeoJSON: https://datatracker.ietf.org/doc/html/rfc7946

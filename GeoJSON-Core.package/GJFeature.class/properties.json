@@ -6,8 +6,7 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"geometry",
-		"properties"
+		"geometry"
 	],
 	"name" : "GJFeature",
 	"type" : "normal"

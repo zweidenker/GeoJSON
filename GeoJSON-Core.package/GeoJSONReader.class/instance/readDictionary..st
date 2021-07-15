@@ -8,7 +8,13 @@ readDictionary: aDictionary
 				ifTrue: [ 
 					object properties: rawValue ]
 				ifFalse: [   
-					object
+					[ object
 						perform: selector asSymbol asMutator
-						with: (rawValue readGeoJSONFrom: self) ] ] ].
+						with: (rawValue readGeoJSONFrom: self) ]
+					ifError: [ 
+						object addPropertyKey: selector withValue: rawValue
+						 ]
+					] 
+				] 
+			].
 	^ object
