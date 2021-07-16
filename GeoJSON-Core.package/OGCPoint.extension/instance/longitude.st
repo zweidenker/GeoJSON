@@ -1,3 +1,3 @@
 *GeoJSON-Core
 longitude
-	^ self x
+	^ self y

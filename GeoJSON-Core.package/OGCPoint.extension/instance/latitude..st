@@ -1,3 +1,3 @@
 *GeoJSON-Core
 latitude: aNumberOrString
-	self y: aNumberOrString asNumber
+	self x: aNumberOrString asNumber

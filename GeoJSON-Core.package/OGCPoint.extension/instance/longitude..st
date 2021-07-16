@@ -1,3 +1,3 @@
 *GeoJSON-Core
 longitude: aNumberOrString
-	self x: aNumberOrString asNumber
+	self y: aNumberOrString asNumber
