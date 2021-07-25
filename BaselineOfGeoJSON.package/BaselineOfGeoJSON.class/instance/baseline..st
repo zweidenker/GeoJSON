@@ -6,7 +6,7 @@ baseline: spec
 		self geography: spec.
    		spec 
 			package: 'GeoJSON-Core' with: [
-				spec requires: #( 'NeoJSON' 'Geography' 'OGC-Pharo')];
+				spec requires: #( 'NeoJSON' 'Geography' "'OGC-Pharo'")];
 			package: 'GeoJSON-Core-Tests' with: [
 				spec requires: #( 'GeoJSON-Core' )];
 			package: 'GeoJSON-Voyage' with: [
