@@ -1,3 +1,3 @@
 *GeoJSON-Core
 coordinates
-	^ #(x y)
+	^ Array braceWith: self x with: self y
