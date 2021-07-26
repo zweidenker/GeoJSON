@@ -1,4 +1,0 @@
-accessing
-geoJsonTypeLabel 
-
-	^ 'MultiLineString'

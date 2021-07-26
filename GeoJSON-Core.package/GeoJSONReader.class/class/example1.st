@@ -38,4 +38,4 @@ example1
     ]
   }
 	'.
-	^ self fromString: file withModel: OGCObject
+	^ self fromString: file

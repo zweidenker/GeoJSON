@@ -1,3 +1,0 @@
-accessing
-longitude
-	^ coordinates first
