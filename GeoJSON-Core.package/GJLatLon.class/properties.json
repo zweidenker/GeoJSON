@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "GJPoint",
-	"category" : "GeoJSON-Core-Extra",
+	"category" : "GeoJSON-Core-GJ Model",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

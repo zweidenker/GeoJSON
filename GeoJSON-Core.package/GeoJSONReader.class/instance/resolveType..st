@@ -1,3 +1,3 @@
 reading
 resolveType: aString
-	^ GJObject withType: aString
+	^ self model withType: aString
