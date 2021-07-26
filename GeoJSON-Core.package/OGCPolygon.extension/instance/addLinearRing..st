@@ -2,4 +2,4 @@
 addLinearRing: aLinearRing
 	aLinearRing isClosed ifFalse: [ 
 		Error signal: 'linear ring is not closed' ].
-	exteriorRing add: aLinearRing 
+	exteriorRing := aLinearRing 
