@@ -1,3 +1,3 @@
 *GeoJSON-Core
 coordinates
-	^ exteriorRing collect: #coordinates
+	^ exteriorRing points collect: #coordinates
