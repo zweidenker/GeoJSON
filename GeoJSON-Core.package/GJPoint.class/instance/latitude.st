@@ -1,3 +1,0 @@
-accessing
-latitude
-	^ coordinates second

@@ -1,3 +1,0 @@
-accessing
-coordinates
-	self shouldBeImplemented.

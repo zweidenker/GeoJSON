@@ -11,7 +11,7 @@ readDictionary: aDictionary
 					[ object
 						perform: selector asSymbol asMutator
 						with: (rawValue readGeoJSONFrom: self) ]
-					ifError: [ 
+					onErrorDo: [ 
 						object addPropertyKey: selector withValue: rawValue
 						 ]
 					] 

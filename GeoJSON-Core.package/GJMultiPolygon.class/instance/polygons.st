@@ -1,3 +1,0 @@
-accessing
-polygons
-	^ self geometries

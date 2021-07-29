@@ -1,3 +1,4 @@
 instance creation
 on: aStream
-	^ self on: aStream withModel: GJObject
+	^ self new
+		stream: aStream; model: OGCObject
