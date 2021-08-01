@@ -2,6 +2,8 @@
 
 Simple implementation of GeoJSON object model in Pharo.
 
+[![CI matrix](https://github.com//zweidenker/GeoJSON/actions/workflows/test.yml/badge.svg)](https://github.com//zweidenker/GeoJSON/actions/workflows/test.yml)
+
 # Installation
 
 ```smalltalk
