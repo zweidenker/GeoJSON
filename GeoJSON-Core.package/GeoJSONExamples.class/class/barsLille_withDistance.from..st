@@ -3,7 +3,7 @@ barsLille_withDistance: aDistanceInMeters from: aBarName
 
 	| model bar selectedBars result |
 
-	model := self barsLilleCollection.
+	model := self barsLille.
 	bar := (model searchFeatureWithPropertyKey: 'name' andValue: aBarName) first.
 	selectedBars := model searchFrom: bar inRay: aDistanceInMeters /1000.
 	(selectedBars isNotEmpty) ifTrue: [ 
