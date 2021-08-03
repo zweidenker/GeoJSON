@@ -1,4 +1,4 @@
 *GeoJSON-Core
 coordinates: aCollection
 	^ self new
-		addLinearRing: aCollection asOGCLinearRing
+		addExteriorRing: aCollection asOGCLinearRing

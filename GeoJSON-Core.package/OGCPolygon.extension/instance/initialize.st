@@ -1,4 +1,5 @@
 *GeoJSON-Core
 initialize
 	super initialize.
-	exteriorRing := OrderedCollection new
+	exteriorRing := OrderedCollection new.
+	interiorRings := OrderedCollection new.
