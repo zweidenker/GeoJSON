@@ -1,4 +1,4 @@
 collection examples
 barsLilleCollection
 	<sampleInstance>
-	^ self fromString: self barsLille
+	^ GeoJSONReader fromString: self barsLille

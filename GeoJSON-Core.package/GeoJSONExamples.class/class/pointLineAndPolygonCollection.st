@@ -1,4 +1,4 @@
 collection examples
 pointLineAndPolygonCollection
 	<sampleInstance>
-	^ self fromString: self pointLineAndPolygon
+	^ GeoJSONReader fromString: self pointLineAndPolygon
