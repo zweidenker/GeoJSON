@@ -1,10 +1,9 @@
-examples
-example2_withDistance: aDistanceInMeters from: aBarName
-	<sampleInstance>
+advanced examples
+barsLille_withDistance: aDistanceInMeters from: aBarName
 
 	| model bar selectedBars result |
 
-	model := self fromString: self sample_barsLille.
+	model := self barsLilleCollection.
 	bar := (model searchFeatureWithPropertyKey: 'name' andValue: aBarName) first.
 	selectedBars := model searchFrom: bar inRay: aDistanceInMeters /1000.
 	(selectedBars isNotEmpty) ifTrue: [ 

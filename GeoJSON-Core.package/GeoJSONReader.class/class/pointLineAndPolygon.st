@@ -1,4 +1,4 @@
-examples
+geojson examples
 pointLineAndPolygon
 	^ '
 	{ "type": "FeatureCollection",

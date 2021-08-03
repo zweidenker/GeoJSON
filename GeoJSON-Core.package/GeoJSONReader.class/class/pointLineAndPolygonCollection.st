@@ -1,4 +1,4 @@
-examples
-example1
+collection examples
+pointLineAndPolygonCollection
 	<sampleInstance>
 	^ self fromString: self pointLineAndPolygon

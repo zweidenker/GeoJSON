@@ -1,5 +1,5 @@
-examples
-sample_barsLille
+geojson examples
+barsLille
 	^ '
 	{
   "type": "FeatureCollection",

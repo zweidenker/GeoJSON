@@ -1,4 +1,4 @@
-examples
+geojson examples
 cyclable
 	^ '
 	{
