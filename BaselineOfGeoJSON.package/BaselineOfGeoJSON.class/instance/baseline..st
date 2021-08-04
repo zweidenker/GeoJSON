@@ -5,10 +5,11 @@ baseline: spec
 	spec for: #common do: [
 		self 
 			neoJson: spec;
+			neoCsv: spec;
 			ogc: spec.
    		spec 
 			package: 'GeoJSON-Core' with: [
-				spec requires: #( 'NeoJSON' 'OGC')];
+				spec requires: #( 'NeoJSON' 'NeoCSV' 'OGC')];
 			package: 'GeoJSON-Core-Tests' with: [
 				spec requires: #( 'GeoJSON-Core' )];
 			package: 'GeoJSON-Voyage' with: [
