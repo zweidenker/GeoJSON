@@ -30,7 +30,12 @@ aMultiPolygonGJ
        [100.2, 0.2]
      ]
     ]
-  ]
+  ],
+	"style": { 
+		"fill":"blue",
+		"stroke":"orange",
+		"stroke-width":"7",
+		"fill-opacity":"0.6" }
 }
 }
 '
