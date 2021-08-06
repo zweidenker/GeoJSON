@@ -1,5 +1,5 @@
-examples
-cyclable
+geojson examples
+cyclableGJ
 	^ '
 	{
   "type": "FeatureCollection",
