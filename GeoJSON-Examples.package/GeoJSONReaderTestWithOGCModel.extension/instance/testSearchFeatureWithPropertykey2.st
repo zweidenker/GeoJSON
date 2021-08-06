@@ -1,4 +1,4 @@
-tests
+*GeoJSON-Examples
 testSearchFeatureWithPropertykey2
 	| model feature |
 	model := GeoJSONExamples barsLille .

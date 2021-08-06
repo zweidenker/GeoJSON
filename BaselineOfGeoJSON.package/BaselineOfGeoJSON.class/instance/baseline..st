@@ -5,16 +5,17 @@ baseline: spec
 	spec for: #common do: [
 		self 
 			neoJson: spec;
-			neoCsv: spec;
 			ogc: spec.
    		spec 
 			package: 'GeoJSON-Core' with: [
-				spec requires: #( 'NeoJSON' 'NeoCSV' 'OGC')];
+				spec requires: #( 'NeoJSON' 'OGC')];
 			package: 'GeoJSON-Core-Tests' with: [
 				spec requires: #( 'GeoJSON-Core' )];
+			package: 'GeoJSON-Examples' with: [ 
+				spec requires: #('GeoJSON-Core') ];
 			package: 'GeoJSON-Voyage' with: [
 				spec requires: #( 'GeoJSON-Core' "leaving out voyage for now. needs to be loaded separately" )].
 
 		spec
-			 group: 'default' with: #( 'GeoJSON-Core' 'GeoJSON-Core-Tests') ].
+			 group: 'default' with: #( 'GeoJSON-Core' 'GeoJSON-Core-Tests' 'GeoJSON-Examples' ) ].
 			
