@@ -1,4 +1,4 @@
-csv examples
+*GeoJSON-Examples
 cinemaDataFrance2020_csv
 	^ 'code;nom;nbEcrans;millionsEntrees;recetteMoyenneParEntreeEnEuros
 84;AUVERGNE-RHONE-ALPES;830;25.62;6.78

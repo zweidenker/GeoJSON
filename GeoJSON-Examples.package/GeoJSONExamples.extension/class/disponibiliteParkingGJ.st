@@ -1,4 +1,4 @@
-geojson examples
+*GeoJSON-Examples
 disponibiliteParkingGJ
 	^ 
 	'

@@ -1,4 +1,4 @@
-colorisation examples
+*GeoJSON-Examples
 averageProfitPerEntryPerFrenchRegion
 	<sampleInstance>
 	"an example of coloration: display the regions of France colored by average profit per cinema entry in 2020"

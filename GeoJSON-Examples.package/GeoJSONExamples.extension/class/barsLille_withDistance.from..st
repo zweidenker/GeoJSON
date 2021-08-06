@@ -1,4 +1,4 @@
-advanced examples
+*GeoJSON-Examples
 barsLille_withDistance: aDistanceInMeters from: aBarName
 
 	| model bar selectedBars result |

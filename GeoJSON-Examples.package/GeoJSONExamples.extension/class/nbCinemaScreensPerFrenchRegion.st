@@ -1,4 +1,4 @@
-colorisation examples
+*GeoJSON-Examples
 nbCinemaScreensPerFrenchRegion
 	<sampleInstance>
 
