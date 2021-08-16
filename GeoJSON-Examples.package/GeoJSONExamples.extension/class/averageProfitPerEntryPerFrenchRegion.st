@@ -13,5 +13,5 @@ averageProfitPerEntryPerFrenchRegion
 
 	dic := OGCObject createStyleDictionary: #(nil nil black 0.5).
 	model applyStyle: dic.
-	model applyStyleOn: 'recetteMoyenneParEntreeEnEuros' withFeatureData: csv withAssociateKey: 'code' withColor: 'red'.
+	model applyContinuousColorationOn: 'recetteMoyenneParEntreeEnEuros' withFeatureData: csv withAssociateKey: 'code' withColor: 'red'.
 	^ model
