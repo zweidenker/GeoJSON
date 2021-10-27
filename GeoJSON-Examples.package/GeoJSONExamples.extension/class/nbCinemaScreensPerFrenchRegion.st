@@ -12,5 +12,5 @@ nbCinemaScreensPerFrenchRegion
 
 	dic := OGCObject createStyleDictionary: #(nil nil black 0.5).
 	model applyStyle: dic.
-	model applyStyleOn: 'nbEcrans' withFeatureData: csv withAssociateKey: 'code' withColor: 'blue'.
+	model applyContinuousColorationOn: 'nbEcrans' withFeatureData: csv withAssociateKey: 'code' withColor: 'blue'.
 	^ model
